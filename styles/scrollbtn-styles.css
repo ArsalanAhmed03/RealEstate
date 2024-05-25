@@ -1,0 +1,23 @@
+#scrollToTopBtn {
+    width: 4vmax;
+    height: 4vmax;
+    max-width: 65px;
+    max-height: 65px;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    color: rgb(0, 0, 0);
+    border: 2px solid #2e2e2e;
+    border-radius: 50%;
+    cursor: pointer;
+    z-index: 1000;
+    transition: all 0.2s;
+    font-size: 1vmax;
+}
+
+#scrollToTopBtn:hover{
+    transform: scale(1.1);
+}
