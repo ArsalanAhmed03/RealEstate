@@ -2,6 +2,7 @@ const express = require('express');
 const port = 80;
 const app = express();
 const path = require('path');
+const mongoose = require('mongoose');
 
 app.use(express.urlencoded({ extended: true }));
 
@@ -47,6 +48,20 @@ app.listen(port,()=>{
     console.log(`The server ${port} has been connected`);
 })
 
+mongoose.connect('mongodb://localhost:27017/').then(()=>{
+    console.log("Database connected");
+});
+
+const Schema = mongoose.Schema;
+const ObjectId = Schema.ObjectId;
+const LoginInfo = new Schema({
+    _id: ObjectId,
+    Email: String,
+    password: String
+});
+
+const MyModel = mongoose.model('RealEstate-Tables',LoginInfo);
+
 app.post('/search',(req,res)=>{
     const search_term = req.body.search_term;
     console.log(search_term); 
@@ -57,7 +72,8 @@ app.post('/login',(req,res)=>{
     const email = req.body.email;
     const password = req.body.password;
     console.log(email);
-    console.log(password); 
+    console.log(password);
+    console.log(userdata); 
     res.redirect('/');
 });
 
