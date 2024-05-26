@@ -1,4 +1,4 @@
-function mksigndiv(){
+function mksigndiv() {
     const MB = document.querySelector("body");
 
     const signinbody = document.createElement("div");
@@ -14,7 +14,7 @@ function mksigndiv(){
     const cross = document.createElement("div");
     signinbox.appendChild(cross);
 
-    function removelogin(){
+    function removelogin() {
         const body = document.querySelector("body");
         body.style.overflow = "auto";
         const logdiv = document.querySelector(".signinbody");
@@ -130,7 +130,7 @@ function addHeader() {
     signUpLink.appendChild(signUpBtn);
     MainHeader.appendChild(signUpLink);
 
-    function showlogin(){
+    function showlogin() {
         mksigndiv();
         const body = document.querySelector("body");
         body.style.overflow = "hidden";

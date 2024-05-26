@@ -1,6 +1,6 @@
 var loader = document.querySelector('.loader');
 
-window.addEventListener("load", function(){
+window.addEventListener("load", function () {
     setTimeout(() => {
         loader.style.display = 'none';
     }, 500);

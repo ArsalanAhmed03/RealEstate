@@ -7,7 +7,7 @@ body {
     flex-direction: column;
 }
 
-.Signup_header{
+.Signup_header {
     position: relative;
     margin-bottom: 10px;
 }
@@ -43,7 +43,9 @@ body {
     font-weight: bold;
 }
 
-.signup-container input, .signup-container select, .signup-container button {
+.signup-container input,
+.signup-container select,
+.signup-container button {
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
@@ -51,7 +53,9 @@ body {
     width: 100%;
 }
 
-.signup-container input:focus,.signup-container select:focus,.signup-container button:focus {
+.signup-container input:focus,
+.signup-container select:focus,
+.signup-container button:focus {
     outline: none;
     border-color: grey;
 }

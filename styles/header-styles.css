@@ -1,8 +1,8 @@
-header{
+header {
     width: 100%;
     height: 6vmax;
     display: flex;
-    flex-direction:row;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
     position: sticky;
@@ -11,14 +11,14 @@ header{
     background-color: white;
 }
 
-button{
+button {
     background-color: transparent;
     border: none;
 }
 
-.logo{
+.logo {
     color: rgb(0, 0, 0);
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -28,7 +28,7 @@ button{
     font-weight: bold;
 }
 
-.page-options{
+.page-options {
     width: 40vw;
     height: 100%;
     display: flex;
@@ -36,7 +36,7 @@ button{
     align-items: center;
 }
 
-.page-options a{
+.page-options a {
     width: 25%;
     height: 90%;
     display: flex;
@@ -44,16 +44,16 @@ button{
     align-items: center;
     text-decoration: none;
     color: rgb(91, 91, 91);
-    font-size:1.2vmax;
+    font-size: 1.2vmax;
 }
 
-.page-options a:hover{
+.page-options a:hover {
     border-right: 1px solid rgb(91, 91, 91);
     border-left: 1px solid rgb(91, 91, 91);
     background-color: #3535351d;
 }
 
-header a button{
+header a button {
     margin: 10px;
     width: 8vw;
     height: 2.5em;
@@ -65,7 +65,7 @@ header a button{
     font-size: 1.2vmax;
 }
 
-header a button::before{
+header a button::before {
     content: '';
     position: absolute;
     top: 0;
@@ -73,22 +73,22 @@ header a button::before{
     width: 100%;
     height: 100%;
     background-color: #353535;
-    transition: left 0.3s; 
+    transition: left 0.3s;
     z-index: -1;
 }
 
-header a button:hover{
+header a button:hover {
     transform: scale(1.15);
     border: none;
     color: white;
     font-weight: bold;
 }
 
-header a button:hover::before{
+header a button:hover::before {
     left: 0;
 }
 
-.input_form{
+.input_form {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -97,7 +97,7 @@ header a button:hover::before{
     margin: 5px;
 }
 
-.input_form input{
+.input_form input {
     box-sizing: border-box;
     height: 150%;
     width: 80%;
@@ -107,16 +107,16 @@ header a button:hover::before{
     padding-left: 10px;
 }
 
-.input_form input::placeholder{
+.input_form input::placeholder {
     font-size: 1vmax;
 }
 
-.input_form input:focus{
+.input_form input:focus {
     outline: none;
     border: 2px solid rgb(91, 91, 91);
 }
 
-.input_form button{
+.input_form button {
     height: 150%;
     width: 20%;
     display: flex;
@@ -132,7 +132,6 @@ header a button:hover::before{
     border-bottom-right-radius: 5px;
 }
 
-.input_form button:hover{
+.input_form button:hover {
     background-color: rgb(91, 91, 91);
 }
-

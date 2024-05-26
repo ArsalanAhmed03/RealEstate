@@ -1,5 +1,5 @@
 /* styles for signin */
-.signinbody{
+.signinbody {
     width: 100vw;
     height: 100vh;
     position: fixed;
@@ -16,7 +16,7 @@
     transition: all 0.2s ease-in;
 }
 
-.signin-box{
+.signin-box {
     font-family: "Playfair Display", serif;
     box-sizing: border-box;
     display: flex;
@@ -30,8 +30,8 @@
     padding: 5%;
 }
 
-.cross{
-    position:absolute;
+.cross {
+    position: absolute;
     top: 3.5vh;
     right: 2vw;
     border-radius: 100%;
@@ -44,11 +44,12 @@
     transition: all 0.2s;
 }
 
-.cross:hover{
+.cross:hover {
     transform: scale(1.2);
 }
 
-#crossline1,#crossline2{
+#crossline1,
+#crossline2 {
     position: absolute;
     width: 1vw;
     border-radius: 5px;
@@ -56,32 +57,33 @@
     height: 0.3vh;
 }
 
-#crossline1{
+#crossline1 {
     transform: rotate(45deg);
 }
 
-#crossline2{
+#crossline2 {
     transform: rotate(-45deg);
 }
 
-.signin-box h3, .signin-box h2{
+.signin-box h3,
+.signin-box h2 {
     margin: 2%;
     color: rgb(64, 63, 63);
 }
 
-.signin-box h3{
-    font-weight:normal;
+.signin-box h3 {
+    font-weight: normal;
     color: rgb(121, 121, 121);
 }
 
-.signin-box a{
+.signin-box a {
     color: red;
     align-self: center;
     font-size: small;
     margin: 5px;
 }
 
-.signin-box form{
+.signin-box form {
     height: 30%;
     width: 100%;
     display: flex;
@@ -90,7 +92,7 @@
     align-items: center;
 }
 
-.signin-box form input{
+.signin-box form input {
     box-sizing: border-box;
     height: 20%;
     width: 100%;
@@ -101,7 +103,7 @@
     padding: 5%;
 }
 
-.signin-box form button{
+.signin-box form button {
     background-color: rgb(64, 64, 64);
     color: white;
     width: 100%;
@@ -111,11 +113,11 @@
     font-weight: bold;
 }
 
-.signin-box form button:hover{
+.signin-box form button:hover {
     background-color: rgb(85, 85, 85);
 }
 
-.signin-box .break{
+.signin-box .break {
     margin: 10px;
     color: rgb(119, 119, 119);
     font-size: smaller;
@@ -124,7 +126,7 @@
     align-items: center;
 }
 
-.signin-box .breakline{
+.signin-box .breakline {
     margin-left: 20px;
     margin-right: 20px;
     background-color: rgb(119, 119, 119);

@@ -1,6 +1,6 @@
 const scrollToTopBtn = document.getElementById('scrollToTopBtn');
 
-window.addEventListener('scroll', function() {
+window.addEventListener('scroll', function () {
     if (document.documentElement.scrollTop > 0 || document.body.scrollTop > 0) {
         scrollToTopBtn.style.display = 'flex';
     } else {
@@ -8,6 +8,6 @@ window.addEventListener('scroll', function() {
     }
 });
 
-scrollToTopBtn.addEventListener('click', function() {
+scrollToTopBtn.addEventListener('click', function () {
     window.scrollTo({ top: 0, behavior: 'smooth' });
 });
